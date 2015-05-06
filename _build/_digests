@@ -1,0 +1,6 @@
+"Resource: /home/huginn/code/isl/main.ml": "B?\171\bfK\168\018O\137xv\133\133F3"
+"Rule: ocaml: ml & cmi -> cmx & o (%=main )": "#E\245;\218[H|\016\152K\132\024\182\169\003"
+"Rule: ocaml: cmo* -> byte (%=main )": "\174Q\200{\247\023\231\204\245P\235\023\227\200\2249"
+"Rule: ocaml: ml -> cmo & cmi (%=main )": "y\023\175\242\222\237\172n`\019\011\003\tcP}"
+"Rule: ocaml dependencies ml (%=main )": "\195\192[\178\231\205\n\148\248!\138\236\242\170\177\139"
+"Rule: ocaml: cmx* & o* -> native (%=main )": "/s\2531\030\188\200\186\144~\230^\\\207Z\199"

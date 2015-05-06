@@ -1,0 +1,17 @@
+OASISFormat: 0.4
+Name:        Isl
+Version:     
+Synopsis:    Nothing
+Authors:     
+License:     MIT
+Plugins:     DevFiles (0.4)
+
+Executable isl
+  Path:       .
+  BuildTools: ocamlbuild
+  BuildDepends: ctypes, ctypes.foreign
+  MainIs:     main.ml
+  CompiledObject: native
+  CCOpt: -cclib,-Xlinker,-cclib,-no-as-needed,-Wl
+  CCLib: -L/usr/local/lib -lisl
+  

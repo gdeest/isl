@@ -1,0 +1,10 @@
+### Starting build.
+# Target: main.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:main.ml, oasis_executable_isl_ccopt, ocaml, ocamldep, pkg_ctypes, pkg_ctypes.foreign, quiet, traverse }
+/home/huginn/.opam/4.02.1/bin/ocamlfind ocamldep -package ctypes -package ctypes.foreign -modules main.ml > main.ml.depends
+# Target: main.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, oasis_executable_isl_ccopt, ocaml, pkg_ctypes, pkg_ctypes.foreign, quiet, traverse }
+/home/huginn/.opam/4.02.1/bin/ocamlfind ocamlc -c -g -annot -bin-annot -ccopt -cclib,-Xlinker,-cclib,-no-as-needed,-Wl -package ctypes -package ctypes.foreign -o main.cmo main.ml
+# Target: main.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:main.cmx, file:main.ml, implem, native, oasis_executable_isl_ccopt, ocaml, pkg_ctypes, pkg_ctypes.foreign, quiet, traverse }
+/home/huginn/.opam/4.02.1/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -ccopt -cclib,-Xlinker,-cclib,-no-as-needed,-Wl -package ctypes -package ctypes.foreign -o main.cmx main.ml
+# Target: main.native, tags: { annot, bin_annot, debug, dont_link_with, extension:native, file:main.native, link, native, oasis_executable_isl_cclib, ocaml, pkg_ctypes, pkg_ctypes.foreign, program, quiet, traverse }
+/home/huginn/.opam/4.02.1/bin/ocamlfind ocamlopt -g -cclib -L/usr/local/lib -cclib -lisl -linkpkg -package ctypes -package ctypes.foreign main.cmx -o main.native
+# Compilation successful.
