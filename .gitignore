@@ -1,0 +1,26 @@
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+*~
+
+# ocamlbuild
+_build
+.depend
+*.native
+*.byte
+
+# oasis
+setup.data
+setup.log
+setup.exe
+
+# ocamld
+*.docdir
+*.native
+*.byte

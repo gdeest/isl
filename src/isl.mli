@@ -1,5 +1,5 @@
 module Sigs : module type of Isl_Sigs
-
+  
 module Make : functor () -> sig
   type id
   type value
@@ -28,6 +28,10 @@ module Make : functor () -> sig
   module Value : Sigs.VALUE
     with type t = value
 
+  module Space : Sigs.SPACE
+    with type t = space
+     and type id := id  
+  
   module LocalSpace : Sigs.LOCAL_SPACE
     with type t = local_space
      and type space := space

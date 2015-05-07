@@ -30,6 +30,7 @@ module Make () = struct
 
   module Id = Isl_Id.Make (CTX)
   module Value = Isl_Value.Make (CTX)
+  module Space = Isl_Space.Make (CTX)      
   module LocalSpace = Isl_LocalSpace.Make (CTX)
   module Constraint = Isl_Constraint.Make (CTX)
   module Aff = Isl_Aff.Make (CTX)
