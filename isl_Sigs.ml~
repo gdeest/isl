@@ -1,0 +1,8 @@
+module type CTX = sig
+  val ctx : IslRaw.ctx
+end
+
+module type I = sig
+  type t
+  val make : string -> t
+end

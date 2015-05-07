@@ -1,0 +1,224 @@
+"isl_Utils.ml" 1 0 4 "isl_Utils.ml" 1 0 8
+type(
+  ('a -> unit) -> 'a -> 'a
+)
+ident(
+  def wrap "isl_Utils.ml" 4 45 45 "isl_Utils.ml" 1 0 -1
+)
+"isl_Utils.ml" 1 0 9 "isl_Utils.ml" 1 0 13
+type(
+  'a -> unit
+)
+ident(
+  def free "isl_Utils.ml" 1 0 14 "isl_Utils.ml" 2 18 41
+)
+"isl_Utils.ml" 1 0 14 "isl_Utils.ml" 1 0 15
+type(
+  'a
+)
+ident(
+  def v "isl_Utils.ml" 2 18 20 "isl_Utils.ml" 2 18 41
+)
+"isl_Utils.ml" 2 18 20 "isl_Utils.ml" 2 18 31
+type(
+  ('a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Gc.finalise
+)
+"isl_Utils.ml" 2 18 32 "isl_Utils.ml" 2 18 36
+type(
+  'a -> unit
+)
+ident(
+  int_ref free "isl_Utils.ml" 1 0 9 "isl_Utils.ml" 1 0 13
+)
+"isl_Utils.ml" 2 18 37 "isl_Utils.ml" 2 18 38
+type(
+  'a
+)
+ident(
+  int_ref v "isl_Utils.ml" 1 0 14 "isl_Utils.ml" 1 0 15
+)
+"isl_Utils.ml" 2 18 20 "isl_Utils.ml" 2 18 38
+call(
+  stack
+)
+type(
+  unit
+)
+"isl_Utils.ml" 2 18 40 "isl_Utils.ml" 2 18 41
+type(
+  'a
+)
+ident(
+  int_ref v "isl_Utils.ml" 1 0 14 "isl_Utils.ml" 1 0 15
+)
+"isl_Utils.ml" 2 18 20 "isl_Utils.ml" 2 18 41
+type(
+  'a
+)
+"isl_Utils.ml" 4 45 49 "isl_Utils.ml" 4 45 59
+type(
+  IslRaw_Types.ctx ->
+  (IslRaw_Types.printer -> 'a -> IslRaw_Types.printer) -> 'a -> string
+)
+ident(
+  def print_with "isl_Utils.ml" 9 202 221 "isl_Utils.ml" 1 0 -1
+)
+"isl_Utils.ml" 4 45 60 "isl_Utils.ml" 4 45 63
+type(
+  IslRaw_Types.ctx
+)
+ident(
+  def ctx "isl_Utils.ml" 4 45 64 "isl_Utils.ml" 9 202 221
+)
+"isl_Utils.ml" 4 45 64 "isl_Utils.ml" 4 45 65
+type(
+  IslRaw_Types.printer -> 'a -> IslRaw_Types.printer
+)
+ident(
+  def f "isl_Utils.ml" 4 45 66 "isl_Utils.ml" 9 202 221
+)
+"isl_Utils.ml" 4 45 66 "isl_Utils.ml" 4 45 67
+type(
+  'a
+)
+ident(
+  def o "isl_Utils.ml" 5 70 72 "isl_Utils.ml" 9 202 221
+)
+"isl_Utils.ml" 6 99 105 "isl_Utils.ml" 6 99 112
+type(
+  IslRaw_Types.printer
+)
+ident(
+  def printer "isl_Utils.ml" 7 137 139 "isl_Utils.ml" 9 202 221
+)
+"isl_Utils.ml" 6 99 115 "isl_Utils.ml" 6 99 129
+type(
+  IslRaw_Types.ctx -> IslRaw_Types.printer
+)
+ident(
+  ext_ref IslRaw.Printer.string_printer
+)
+"isl_Utils.ml" 6 99 130 "isl_Utils.ml" 6 99 133
+type(
+  IslRaw_Types.ctx
+)
+ident(
+  int_ref ctx "isl_Utils.ml" 4 45 60 "isl_Utils.ml" 4 45 63
+)
+"isl_Utils.ml" 6 99 115 "isl_Utils.ml" 6 99 133
+call(
+  stack
+)
+type(
+  IslRaw_Types.printer
+)
+"isl_Utils.ml" 7 137 143 "isl_Utils.ml" 7 137 150
+type(
+  IslRaw_Types.printer
+)
+ident(
+  def printer "isl_Utils.ml" 8 168 170 "isl_Utils.ml" 9 202 221
+)
+"isl_Utils.ml" 7 137 153 "isl_Utils.ml" 7 137 154
+type(
+  IslRaw_Types.printer -> 'a -> IslRaw_Types.printer
+)
+ident(
+  int_ref f "isl_Utils.ml" 4 45 64 "isl_Utils.ml" 4 45 65
+)
+"isl_Utils.ml" 7 137 155 "isl_Utils.ml" 7 137 162
+type(
+  IslRaw_Types.printer
+)
+ident(
+  int_ref printer "isl_Utils.ml" 6 99 105 "isl_Utils.ml" 6 99 112
+)
+"isl_Utils.ml" 7 137 163 "isl_Utils.ml" 7 137 164
+type(
+  'a
+)
+ident(
+  int_ref o "isl_Utils.ml" 4 45 66 "isl_Utils.ml" 4 45 67
+)
+"isl_Utils.ml" 7 137 153 "isl_Utils.ml" 7 137 164
+call(
+  stack
+)
+type(
+  IslRaw_Types.printer
+)
+"isl_Utils.ml" 8 168 174 "isl_Utils.ml" 8 168 177
+type(
+  string
+)
+ident(
+  def str "isl_Utils.ml" 9 202 204 "isl_Utils.ml" 9 202 221
+)
+"isl_Utils.ml" 8 168 180 "isl_Utils.ml" 8 168 190
+type(
+  IslRaw_Types.printer -> string
+)
+ident(
+  ext_ref IslRaw.Printer.get_string
+)
+"isl_Utils.ml" 8 168 191 "isl_Utils.ml" 8 168 198
+type(
+  IslRaw_Types.printer
+)
+ident(
+  int_ref printer "isl_Utils.ml" 7 137 143 "isl_Utils.ml" 7 137 150
+)
+"isl_Utils.ml" 8 168 180 "isl_Utils.ml" 8 168 198
+call(
+  stack
+)
+type(
+  string
+)
+"isl_Utils.ml" 9 202 204 "isl_Utils.ml" 9 202 208
+type(
+  IslRaw_Types.printer -> unit
+)
+ident(
+  ext_ref IslRaw.Printer.free
+)
+"isl_Utils.ml" 9 202 209 "isl_Utils.ml" 9 202 216
+type(
+  IslRaw_Types.printer
+)
+ident(
+  int_ref printer "isl_Utils.ml" 7 137 143 "isl_Utils.ml" 7 137 150
+)
+"isl_Utils.ml" 9 202 204 "isl_Utils.ml" 9 202 216
+call(
+  stack
+)
+type(
+  unit
+)
+"isl_Utils.ml" 9 202 218 "isl_Utils.ml" 9 202 221
+type(
+  string
+)
+ident(
+  int_ref str "isl_Utils.ml" 8 168 174 "isl_Utils.ml" 8 168 177
+)
+"isl_Utils.ml" 9 202 204 "isl_Utils.ml" 9 202 221
+type(
+  string
+)
+"isl_Utils.ml" 8 168 170 "isl_Utils.ml" 9 202 221
+type(
+  string
+)
+"isl_Utils.ml" 7 137 139 "isl_Utils.ml" 9 202 221
+type(
+  string
+)
+"isl_Utils.ml" 6 99 101 "isl_Utils.ml" 9 202 221
+type(
+  string
+)

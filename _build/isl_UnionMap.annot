@@ -1,0 +1,256 @@
+"isl_UnionMap.ml" 15 299 305 "isl_UnionMap.ml" 15 299 309
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  def copy "isl_UnionMap.ml" 16 319 321 "isl_UnionMap.ml" 21 527 530
+)
+"isl_UnionMap.ml" 15 299 312 "isl_UnionMap.ml" 15 299 318
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref M.copy
+)
+"isl_UnionMap.ml" 16 319 325 "isl_UnionMap.ml" 16 319 329
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  def wrap "isl_UnionMap.ml" 18 355 357 "isl_UnionMap.ml" 21 527 530
+)
+"isl_UnionMap.ml" 16 319 332 "isl_UnionMap.ml" 16 319 346
+type(
+  (IslRaw_Types.union_map -> unit) ->
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref Isl_Utils.wrap
+)
+"isl_UnionMap.ml" 16 319 347 "isl_UnionMap.ml" 16 319 353
+type(
+  IslRaw_Types.union_map -> unit
+)
+ident(
+  ext_ref M.free
+)
+"isl_UnionMap.ml" 16 319 332 "isl_UnionMap.ml" 16 319 353
+call(
+  stack
+)
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+"isl_UnionMap.ml" 18 355 361 "isl_UnionMap.ml" 18 355 366
+type(
+  IslRaw_Types.space -> IslRaw_Types.union_map
+)
+ident(
+  def empty "isl_UnionMap.ml" 19 409 411 "isl_UnionMap.ml" 21 527 530
+)
+"isl_UnionMap.ml" 18 355 367 "isl_UnionMap.ml" 18 355 368
+type(
+  IslRaw_Types.space
+)
+ident(
+  def s "isl_UnionMap.ml" 18 355 371 "isl_UnionMap.ml" 18 355 408
+)
+"isl_UnionMap.ml" 18 355 371 "isl_UnionMap.ml" 18 355 375
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  int_ref wrap "isl_UnionMap.ml" 16 319 325 "isl_UnionMap.ml" 16 319 329
+)
+"isl_UnionMap.ml" 18 355 376 "isl_UnionMap.ml" 18 355 378
+type(
+  (IslRaw_Types.union_map -> IslRaw_Types.union_map) ->
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_UnionMap.ml" 18 355 379 "isl_UnionMap.ml" 18 355 386
+type(
+  IslRaw_Types.space -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref M.empty
+)
+"isl_UnionMap.ml" 18 355 388 "isl_UnionMap.ml" 18 355 405
+type(
+  IslRaw_Types.space -> IslRaw_Types.space
+)
+ident(
+  ext_ref IslRaw.Space.copy
+)
+"isl_UnionMap.ml" 18 355 406 "isl_UnionMap.ml" 18 355 407
+type(
+  IslRaw_Types.space
+)
+ident(
+  int_ref s "isl_UnionMap.ml" 18 355 367 "isl_UnionMap.ml" 18 355 368
+)
+"isl_UnionMap.ml" 18 355 387 "isl_UnionMap.ml" 18 355 408
+call(
+  stack
+)
+type(
+  IslRaw_Types.space
+)
+"isl_UnionMap.ml" 18 355 379 "isl_UnionMap.ml" 18 355 408
+call(
+  stack
+)
+type(
+  IslRaw_Types.union_map
+)
+"isl_UnionMap.ml" 18 355 371 "isl_UnionMap.ml" 18 355 408
+call(
+  tail
+)
+type(
+  IslRaw_Types.union_map
+)
+"isl_UnionMap.ml" 19 409 415 "isl_UnionMap.ml" 19 409 423
+type(
+  IslRaw_Types.space -> IslRaw_Types.union_map
+)
+ident(
+  def universe "isl_UnionMap.ml" 20 469 471 "isl_UnionMap.ml" 21 527 530
+)
+"isl_UnionMap.ml" 19 409 424 "isl_UnionMap.ml" 19 409 425
+type(
+  IslRaw_Types.space
+)
+ident(
+  def s "isl_UnionMap.ml" 19 409 428 "isl_UnionMap.ml" 19 409 468
+)
+"isl_UnionMap.ml" 19 409 428 "isl_UnionMap.ml" 19 409 432
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  int_ref wrap "isl_UnionMap.ml" 16 319 325 "isl_UnionMap.ml" 16 319 329
+)
+"isl_UnionMap.ml" 19 409 433 "isl_UnionMap.ml" 19 409 435
+type(
+  (IslRaw_Types.union_map -> IslRaw_Types.union_map) ->
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_UnionMap.ml" 19 409 436 "isl_UnionMap.ml" 19 409 446
+type(
+  IslRaw_Types.space -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref M.universe
+)
+"isl_UnionMap.ml" 19 409 448 "isl_UnionMap.ml" 19 409 465
+type(
+  IslRaw_Types.space -> IslRaw_Types.space
+)
+ident(
+  ext_ref IslRaw.Space.copy
+)
+"isl_UnionMap.ml" 19 409 466 "isl_UnionMap.ml" 19 409 467
+type(
+  IslRaw_Types.space
+)
+ident(
+  int_ref s "isl_UnionMap.ml" 19 409 424 "isl_UnionMap.ml" 19 409 425
+)
+"isl_UnionMap.ml" 19 409 447 "isl_UnionMap.ml" 19 409 468
+call(
+  stack
+)
+type(
+  IslRaw_Types.space
+)
+"isl_UnionMap.ml" 19 409 436 "isl_UnionMap.ml" 19 409 468
+call(
+  stack
+)
+type(
+  IslRaw_Types.union_map
+)
+"isl_UnionMap.ml" 19 409 428 "isl_UnionMap.ml" 19 409 468
+call(
+  tail
+)
+type(
+  IslRaw_Types.union_map
+)
+"isl_UnionMap.ml" 20 469 475 "isl_UnionMap.ml" 20 469 483
+type(
+  IslRaw_Types.map -> IslRaw_Types.union_map
+)
+ident(
+  def from_map "isl_UnionMap.ml" 20 469 526 "isl_UnionMap.ml" 21 527 530
+)
+"isl_UnionMap.ml" 20 469 484 "isl_UnionMap.ml" 20 469 485
+type(
+  IslRaw_Types.map
+)
+ident(
+  def s "isl_UnionMap.ml" 20 469 488 "isl_UnionMap.ml" 20 469 526
+)
+"isl_UnionMap.ml" 20 469 488 "isl_UnionMap.ml" 20 469 492
+type(
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  int_ref wrap "isl_UnionMap.ml" 16 319 325 "isl_UnionMap.ml" 16 319 329
+)
+"isl_UnionMap.ml" 20 469 493 "isl_UnionMap.ml" 20 469 495
+type(
+  (IslRaw_Types.union_map -> IslRaw_Types.union_map) ->
+  IslRaw_Types.union_map -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_UnionMap.ml" 20 469 496 "isl_UnionMap.ml" 20 469 506
+type(
+  IslRaw_Types.map -> IslRaw_Types.union_map
+)
+ident(
+  ext_ref M.from_map
+)
+"isl_UnionMap.ml" 20 469 508 "isl_UnionMap.ml" 20 469 523
+type(
+  IslRaw_Types.map -> IslRaw_Types.map
+)
+ident(
+  ext_ref IslRaw.Map.copy
+)
+"isl_UnionMap.ml" 20 469 524 "isl_UnionMap.ml" 20 469 525
+type(
+  IslRaw_Types.map
+)
+ident(
+  int_ref s "isl_UnionMap.ml" 20 469 484 "isl_UnionMap.ml" 20 469 485
+)
+"isl_UnionMap.ml" 20 469 507 "isl_UnionMap.ml" 20 469 526
+call(
+  stack
+)
+type(
+  IslRaw_Types.map
+)
+"isl_UnionMap.ml" 20 469 496 "isl_UnionMap.ml" 20 469 526
+call(
+  stack
+)
+type(
+  IslRaw_Types.union_map
+)
+"isl_UnionMap.ml" 20 469 488 "isl_UnionMap.ml" 20 469 526
+call(
+  tail
+)
+type(
+  IslRaw_Types.union_map
+)

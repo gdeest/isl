@@ -1,0 +1,628 @@
+"IslRaw_Set.ml" 5 44 48 "IslRaw_Set.ml" 5 44 52
+type(
+  IslRaw_Types.set -> IslRaw_Types.set
+)
+ident(
+  def copy "IslRaw_Set.ml" 6 102 102 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 5 44 55 "IslRaw_Set.ml" 5 44 62
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.set -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.set -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 5 44 63 "IslRaw_Set.ml" 5 44 77
+type(
+  string
+)
+"IslRaw_Set.ml" 5 44 79 "IslRaw_Set.ml" 5 44 82
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 5 44 83 "IslRaw_Set.ml" 5 44 86
+type(
+  IslRaw_Types.set Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.set -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 5 44 87 "IslRaw_Set.ml" 5 44 96
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 5 44 97 "IslRaw_Set.ml" 5 44 100
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 5 44 87 "IslRaw_Set.ml" 5 44 100
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 5 44 78 "IslRaw_Set.ml" 5 44 101
+call(
+  stack
+)
+type(
+  (IslRaw_Types.set -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 5 44 55 "IslRaw_Set.ml" 5 44 101
+call(
+  stack
+)
+type(
+  IslRaw_Types.set -> IslRaw_Types.set
+)
+"IslRaw_Set.ml" 6 102 106 "IslRaw_Set.ml" 6 102 110
+type(
+  IslRaw_Types.set -> unit
+)
+ident(
+  def free "IslRaw_Set.ml" 7 161 161 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 6 102 113 "IslRaw_Set.ml" 6 102 120
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string -> (IslRaw_Types.set -> unit) Ctypes.fn -> IslRaw_Types.set -> unit
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 6 102 121 "IslRaw_Set.ml" 6 102 135
+type(
+  string
+)
+"IslRaw_Set.ml" 6 102 137 "IslRaw_Set.ml" 6 102 140
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 6 102 141 "IslRaw_Set.ml" 6 102 144
+type(
+  IslRaw_Types.set Ctypes.typ ->
+  unit Ctypes.fn -> (IslRaw_Types.set -> unit) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 6 102 145 "IslRaw_Set.ml" 6 102 154
+type(
+  unit Ctypes.typ -> unit Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 6 102 155 "IslRaw_Set.ml" 6 102 159
+type(
+  unit Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.void
+)
+"IslRaw_Set.ml" 6 102 145 "IslRaw_Set.ml" 6 102 159
+call(
+  stack
+)
+type(
+  unit Ctypes.fn
+)
+"IslRaw_Set.ml" 6 102 136 "IslRaw_Set.ml" 6 102 160
+call(
+  stack
+)
+type(
+  (IslRaw_Types.set -> unit) Ctypes.fn
+)
+"IslRaw_Set.ml" 6 102 113 "IslRaw_Set.ml" 6 102 160
+call(
+  stack
+)
+type(
+  IslRaw_Types.set -> unit
+)
+"IslRaw_Set.ml" 7 161 165 "IslRaw_Set.ml" 7 161 170
+type(
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+ident(
+  def empty "IslRaw_Set.ml" 8 223 223 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 7 161 173 "IslRaw_Set.ml" 7 161 180
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 7 161 181 "IslRaw_Set.ml" 7 161 196
+type(
+  string
+)
+"IslRaw_Set.ml" 7 161 198 "IslRaw_Set.ml" 7 161 203
+type(
+  IslRaw_Types.space Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.space
+)
+"IslRaw_Set.ml" 7 161 204 "IslRaw_Set.ml" 7 161 207
+type(
+  IslRaw_Types.space Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 7 161 208 "IslRaw_Set.ml" 7 161 217
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 7 161 218 "IslRaw_Set.ml" 7 161 221
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 7 161 208 "IslRaw_Set.ml" 7 161 221
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 7 161 197 "IslRaw_Set.ml" 7 161 222
+call(
+  stack
+)
+type(
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 7 161 173 "IslRaw_Set.ml" 7 161 222
+call(
+  stack
+)
+type(
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+"IslRaw_Set.ml" 8 223 227 "IslRaw_Set.ml" 8 223 235
+type(
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+ident(
+  def universe "IslRaw_Set.ml" 9 291 291 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 8 223 238 "IslRaw_Set.ml" 8 223 245
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 8 223 246 "IslRaw_Set.ml" 8 223 264
+type(
+  string
+)
+"IslRaw_Set.ml" 8 223 266 "IslRaw_Set.ml" 8 223 271
+type(
+  IslRaw_Types.space Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.space
+)
+"IslRaw_Set.ml" 8 223 272 "IslRaw_Set.ml" 8 223 275
+type(
+  IslRaw_Types.space Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 8 223 276 "IslRaw_Set.ml" 8 223 285
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 8 223 286 "IslRaw_Set.ml" 8 223 289
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 8 223 276 "IslRaw_Set.ml" 8 223 289
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 8 223 265 "IslRaw_Set.ml" 8 223 290
+call(
+  stack
+)
+type(
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 8 223 238 "IslRaw_Set.ml" 8 223 290
+call(
+  stack
+)
+type(
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+"IslRaw_Set.ml" 9 291 295 "IslRaw_Set.ml" 9 291 307
+type(
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+ident(
+  def nat_universe "IslRaw_Set.ml" 10 367 367 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 9 291 310 "IslRaw_Set.ml" 9 291 317
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 9 291 318 "IslRaw_Set.ml" 9 291 340
+type(
+  string
+)
+"IslRaw_Set.ml" 9 291 342 "IslRaw_Set.ml" 9 291 347
+type(
+  IslRaw_Types.space Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.space
+)
+"IslRaw_Set.ml" 9 291 348 "IslRaw_Set.ml" 9 291 351
+type(
+  IslRaw_Types.space Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 9 291 352 "IslRaw_Set.ml" 9 291 361
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 9 291 362 "IslRaw_Set.ml" 9 291 365
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 9 291 352 "IslRaw_Set.ml" 9 291 365
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 9 291 341 "IslRaw_Set.ml" 9 291 366
+call(
+  stack
+)
+type(
+  (IslRaw_Types.space -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 9 291 310 "IslRaw_Set.ml" 9 291 366
+call(
+  stack
+)
+type(
+  IslRaw_Types.space -> IslRaw_Types.set
+)
+"IslRaw_Set.ml" 10 367 371 "IslRaw_Set.ml" 10 367 385
+type(
+  IslRaw_Types.set -> IslRaw_Types.constrnt -> IslRaw_Types.set
+)
+ident(
+  def add_constraint "IslRaw_Set.ml" 11 458 458 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 10 367 388 "IslRaw_Set.ml" 10 367 395
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.set -> IslRaw_Types.constrnt -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.set -> IslRaw_Types.constrnt -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 10 367 396 "IslRaw_Set.ml" 10 367 420
+type(
+  string
+)
+"IslRaw_Set.ml" 10 367 422 "IslRaw_Set.ml" 10 367 425
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 10 367 426 "IslRaw_Set.ml" 10 367 429
+type(
+  IslRaw_Types.set Ctypes.typ ->
+  (IslRaw_Types.constrnt -> IslRaw_Types.set) Ctypes.fn ->
+  (IslRaw_Types.set -> IslRaw_Types.constrnt -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 10 367 430 "IslRaw_Set.ml" 10 367 438
+type(
+  IslRaw_Types.constrnt Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.constrnt
+)
+"IslRaw_Set.ml" 10 367 439 "IslRaw_Set.ml" 10 367 442
+type(
+  IslRaw_Types.constrnt Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.constrnt -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 10 367 443 "IslRaw_Set.ml" 10 367 452
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 10 367 453 "IslRaw_Set.ml" 10 367 456
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 10 367 443 "IslRaw_Set.ml" 10 367 456
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 10 367 430 "IslRaw_Set.ml" 10 367 456
+call(
+  stack
+)
+type(
+  (IslRaw_Types.constrnt -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 10 367 421 "IslRaw_Set.ml" 10 367 457
+call(
+  stack
+)
+type(
+  (IslRaw_Types.set -> IslRaw_Types.constrnt -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 10 367 388 "IslRaw_Set.ml" 10 367 457
+call(
+  stack
+)
+type(
+  IslRaw_Types.set -> IslRaw_Types.constrnt -> IslRaw_Types.set
+)
+"IslRaw_Set.ml" 11 458 462 "IslRaw_Set.ml" 11 458 476
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.set
+)
+ident(
+  def from_basic_set "IslRaw_Set.ml" 12 542 542 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 11 458 479 "IslRaw_Set.ml" 11 458 486
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.basic_set -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.basic_set -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 11 458 487 "IslRaw_Set.ml" 11 458 511
+type(
+  string
+)
+"IslRaw_Set.ml" 11 458 513 "IslRaw_Set.ml" 11 458 522
+type(
+  IslRaw_Types.basic_set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.basic_set
+)
+"IslRaw_Set.ml" 11 458 523 "IslRaw_Set.ml" 11 458 526
+type(
+  IslRaw_Types.basic_set Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.basic_set -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 11 458 527 "IslRaw_Set.ml" 11 458 536
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 11 458 537 "IslRaw_Set.ml" 11 458 540
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 11 458 527 "IslRaw_Set.ml" 11 458 540
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 11 458 512 "IslRaw_Set.ml" 11 458 541
+call(
+  stack
+)
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 11 458 479 "IslRaw_Set.ml" 11 458 541
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.set
+)
+"IslRaw_Set.ml" 12 542 546 "IslRaw_Set.ml" 12 542 560
+type(
+  IslRaw_Types.union_set -> IslRaw_Types.set
+)
+ident(
+  def from_union_set "IslRaw_Set.ml" 12 542 625 "IslRaw_Set.ml" 1 0 -1
+)
+"IslRaw_Set.ml" 12 542 563 "IslRaw_Set.ml" 12 542 570
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.union_set -> IslRaw_Types.set) Ctypes.fn ->
+  IslRaw_Types.union_set -> IslRaw_Types.set
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Set.ml" 12 542 571 "IslRaw_Set.ml" 12 542 595
+type(
+  string
+)
+"IslRaw_Set.ml" 12 542 597 "IslRaw_Set.ml" 12 542 606
+type(
+  IslRaw_Types.union_set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.union_set
+)
+"IslRaw_Set.ml" 12 542 607 "IslRaw_Set.ml" 12 542 610
+type(
+  IslRaw_Types.union_set Ctypes.typ ->
+  IslRaw_Types.set Ctypes.fn ->
+  (IslRaw_Types.union_set -> IslRaw_Types.set) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Set.ml" 12 542 611 "IslRaw_Set.ml" 12 542 620
+type(
+  IslRaw_Types.set Ctypes.typ -> IslRaw_Types.set Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Set.ml" 12 542 621 "IslRaw_Set.ml" 12 542 624
+type(
+  IslRaw_Types.set Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.set
+)
+"IslRaw_Set.ml" 12 542 611 "IslRaw_Set.ml" 12 542 624
+call(
+  stack
+)
+type(
+  IslRaw_Types.set Ctypes.fn
+)
+"IslRaw_Set.ml" 12 542 596 "IslRaw_Set.ml" 12 542 625
+call(
+  stack
+)
+type(
+  (IslRaw_Types.union_set -> IslRaw_Types.set) Ctypes.fn
+)
+"IslRaw_Set.ml" 12 542 563 "IslRaw_Set.ml" 12 542 625
+call(
+  stack
+)
+type(
+  IslRaw_Types.union_set -> IslRaw_Types.set
+)

@@ -1,0 +1,150 @@
+"IslRaw_Matrix.ml" 5 44 48 "IslRaw_Matrix.ml" 5 44 52
+type(
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+ident(
+  def copy "IslRaw_Matrix.ml" 6 108 108 "IslRaw_Matrix.ml" 1 0 -1
+)
+"IslRaw_Matrix.ml" 5 44 55 "IslRaw_Matrix.ml" 5 44 62
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.matrix -> IslRaw_Types.matrix) Ctypes.fn ->
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Matrix.ml" 5 44 63 "IslRaw_Matrix.ml" 5 44 77
+type(
+  string
+)
+"IslRaw_Matrix.ml" 5 44 79 "IslRaw_Matrix.ml" 5 44 85
+type(
+  IslRaw_Types.matrix Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.matrix
+)
+"IslRaw_Matrix.ml" 5 44 86 "IslRaw_Matrix.ml" 5 44 89
+type(
+  IslRaw_Types.matrix Ctypes.typ ->
+  IslRaw_Types.matrix Ctypes.fn ->
+  (IslRaw_Types.matrix -> IslRaw_Types.matrix) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Matrix.ml" 5 44 90 "IslRaw_Matrix.ml" 5 44 99
+type(
+  IslRaw_Types.matrix Ctypes.typ -> IslRaw_Types.matrix Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Matrix.ml" 5 44 100 "IslRaw_Matrix.ml" 5 44 106
+type(
+  IslRaw_Types.matrix Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.matrix
+)
+"IslRaw_Matrix.ml" 5 44 90 "IslRaw_Matrix.ml" 5 44 106
+call(
+  stack
+)
+type(
+  IslRaw_Types.matrix Ctypes.fn
+)
+"IslRaw_Matrix.ml" 5 44 78 "IslRaw_Matrix.ml" 5 44 107
+call(
+  stack
+)
+type(
+  (IslRaw_Types.matrix -> IslRaw_Types.matrix) Ctypes.fn
+)
+"IslRaw_Matrix.ml" 5 44 55 "IslRaw_Matrix.ml" 5 44 107
+call(
+  stack
+)
+type(
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+"IslRaw_Matrix.ml" 6 108 112 "IslRaw_Matrix.ml" 6 108 116
+type(
+  IslRaw_Types.matrix -> unit
+)
+ident(
+  def free "IslRaw_Matrix.ml" 6 108 169 "IslRaw_Matrix.ml" 1 0 -1
+)
+"IslRaw_Matrix.ml" 6 108 119 "IslRaw_Matrix.ml" 6 108 126
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.matrix -> unit) Ctypes.fn -> IslRaw_Types.matrix -> unit
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Matrix.ml" 6 108 127 "IslRaw_Matrix.ml" 6 108 141
+type(
+  string
+)
+"IslRaw_Matrix.ml" 6 108 143 "IslRaw_Matrix.ml" 6 108 149
+type(
+  IslRaw_Types.matrix Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.matrix
+)
+"IslRaw_Matrix.ml" 6 108 150 "IslRaw_Matrix.ml" 6 108 153
+type(
+  IslRaw_Types.matrix Ctypes.typ ->
+  unit Ctypes.fn -> (IslRaw_Types.matrix -> unit) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Matrix.ml" 6 108 154 "IslRaw_Matrix.ml" 6 108 163
+type(
+  unit Ctypes.typ -> unit Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Matrix.ml" 6 108 164 "IslRaw_Matrix.ml" 6 108 168
+type(
+  unit Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.void
+)
+"IslRaw_Matrix.ml" 6 108 154 "IslRaw_Matrix.ml" 6 108 168
+call(
+  stack
+)
+type(
+  unit Ctypes.fn
+)
+"IslRaw_Matrix.ml" 6 108 142 "IslRaw_Matrix.ml" 6 108 169
+call(
+  stack
+)
+type(
+  (IslRaw_Types.matrix -> unit) Ctypes.fn
+)
+"IslRaw_Matrix.ml" 6 108 119 "IslRaw_Matrix.ml" 6 108 169
+call(
+  stack
+)
+type(
+  IslRaw_Types.matrix -> unit
+)

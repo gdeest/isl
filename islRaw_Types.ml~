@@ -1,0 +1,11 @@
+type ctx = unit ptr
+let ctx : isl_ctx typ = ptr void
+
+type value = unit ptr
+let value : isl_val typ = ptr void
+
+type id = unit ptr
+let id : isl_id typ = ptr void
+    
+
+type isl_space =

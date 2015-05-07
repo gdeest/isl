@@ -1,0 +1,78 @@
+open Isl_Utils
+open Isl_Sigs
+open IslRaw
+
+module Make (CTX: CTX) : VALUE with type t = value = struct
+  type t = value
+
+  let wrap = wrap isl_val_free
+  let copy = isl_val_copy
+
+  let zero = wrap @@ isl_val_zero ctx        
+  let one = wrap @@ isl_val_one ctx
+  let negone = wrap @@ isl_val_negone ctx
+  let nan = wrap @@ isl_val_nan ctx
+  let infty = wrap @@ isl_val_infty ctx
+  let neginfty = wrap @@ isl_val_neginfty ctx
+
+  let num v = Signed.Long.to_int64 @@ isl_val_get_num_si v
+  let den v = Signed.Long.to_int64 @@ isl_val_get_den_si v
+
+  let sgn = isl_val_sgn
+  let is_zero = isl_val_is_zero
+  let is_one = isl_val_is_one
+  let is_negone = isl_val_is_negone
+  let is_nonneg = isl_val_is_nonneg
+  let is_nonpos = isl_val_is_nonpos
+  let is_pos = isl_val_is_pos
+  let is_neg = isl_val_is_neg
+  let is_int = isl_val_is_int
+  let is_rat = isl_val_is_rat
+  let is_nan = isl_val_is_nan
+  let is_infty = isl_val_is_infty
+  let is_neginfty = isl_val_is_neginfty
+
+  let lt = isl_val_lt
+  let le = isl_val_le
+  let gt = isl_val_gt
+  let ge = isl_val_ge
+  let eq = isl_val_eq
+  let ne = isl_val_ne
+  let divisible = isl_val_is_divisible_by
+  let cmp_int64 v i = isl_val_cmp_si v (Signed.Long.of_int64 i)
+  let (<), (<=), (>), (>=), (=), (<>) = lt, le, gt, ge, eq, ne        
+
+  let abs v = wrap @@ isl_val_abs @@ copy v
+  let neg v = wrap @@ isl_val_neg @@ copy v
+  let floor v = wrap @@ isl_val_floor @@ copy v
+  let ceil v = wrap @@ isl_val_ceil @@ copy v
+  let trunc v = wrap @@ isl_val_trunc @@ copy v
+  let twoexp v = wrap @@ isl_val_2exp @@ copy v
+
+  let min v1 v2 = wrap @@ isl_val_min (copy v1) (copy v2)
+  let max v1 v2 = wrap @@ isl_val_max (copy v1) (copy v2)        
+  let add v1 v2 = wrap @@ isl_val_add (copy v1) (copy v2)
+  let add_int v i = wrap @@ isl_val_add_ui (copy v) (Unsigned.ULong.of_int i)
+  let sub v1 v2 = wrap @@ isl_val_sub (copy v1) (copy v2)
+  let sub_int v i = wrap @@ isl_val_sub_ui (copy v) (Unsigned.ULong.of_int i)
+  let mul v1 v2 = wrap @@ isl_val_mul (copy v1) (copy v2)
+  let mul_int v i = wrap @@ isl_val_mul_ui (copy v) (Unsigned.ULong.of_int i)
+  let div v1 v2 = wrap @@ isl_val_div (copy v1) (copy v2)
+
+  let modulo a b = wrap @@ isl_val_mod (copy a) (copy b)
+  let gcd a b = wrap @@ isl_val_gcd (copy a) (copy b)
+  let gcdext a b =
+    let x_ptr = allocate isl_val null in
+    let y_ptr = allocate isl_val null in
+    let d = wrap @@ isl_val_gcdext a b x_ptr y_ptr in
+    (d, wrap !@x_ptr, wrap !@y_ptr)
+
+  let (+), (-), (~-), ( * ), (mod), (/) = add, sub, neg, mul, modulo, div
+
+  let of_int64 i =
+    let i = Signed.Long.of_int64 i in
+    wrap @@ isl_val_int_from_si ctx i
+
+  let of_int i = of_int64 @@ Int64.of_int i
+  let to_int64 v = if (is_int v) then Some (num v) else None    
+end

@@ -1,0 +1,43 @@
+"Isl_Types.ml" 4 85 89 "Isl_Types.ml" 4 85 98
+type(
+  [< `In | `Out | `Param | `Set ] -> IslRaw_Types.dim_type
+)
+ident(
+  def to_raw_dt "Isl_Types.ml" 10 265 265 "Isl_Types.ml" 1 0 -1
+)
+"Isl_Types.ml" 5 110 114 "Isl_Types.ml" 5 110 120
+type(
+  [< `In | `Out | `Param | `Set ] as 'a
+)
+"Isl_Types.ml" 5 110 124 "Isl_Types.ml" 5 110 145
+type(
+  IslRaw_Types.dim_type
+)
+"Isl_Types.ml" 6 146 150 "Isl_Types.ml" 6 146 153
+type(
+  'a
+)
+"Isl_Types.ml" 6 146 157 "Isl_Types.ml" 6 146 175
+type(
+  IslRaw_Types.dim_type
+)
+"Isl_Types.ml" 7 176 180 "Isl_Types.ml" 7 176 184
+type(
+  'a
+)
+"Isl_Types.ml" 7 176 188 "Isl_Types.ml" 7 176 207
+type(
+  IslRaw_Types.dim_type
+)
+"Isl_Types.ml" 8 208 212 "Isl_Types.ml" 8 208 216
+type(
+  'a
+)
+"Isl_Types.ml" 8 208 220 "Isl_Types.ml" 8 208 239
+type(
+  IslRaw_Types.dim_type
+)
+"Isl_Types.ml" 4 85 101 "Isl_Types.ml" 8 208 239
+type(
+  'a -> IslRaw_Types.dim_type
+)

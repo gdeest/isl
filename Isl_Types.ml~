@@ -1,0 +1,8 @@
+type dim_type = [ `Param | `In | `Out | `Set ]
+type noparam_dim_type = [ `In | `Out | `Set ]
+
+let to_raw_dt = function
+  | `Param -> DimParam
+  | `In -> DimIn
+  | `Out -> DimOut
+  | `Set -> DimSet                        

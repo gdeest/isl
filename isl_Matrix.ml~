@@ -1,0 +1,5 @@
+module Make (CTX: CTX): MATRIX
+  with type t = matrix
+sig
+  type t = matrix
+end

@@ -1,0 +1,392 @@
+"IslRaw_Ctx.ml" 6 76 80 "IslRaw_Ctx.ml" 6 76 85
+type(
+  unit -> IslRaw_Types.ctx
+)
+ident(
+  def alloc "IslRaw_Ctx.ml" 8 180 180 "IslRaw_Ctx.ml" 1 0 -1
+)
+"IslRaw_Ctx.ml" 6 76 88 "IslRaw_Ctx.ml" 6 76 95
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string -> (unit -> IslRaw_Types.ctx) Ctypes.fn -> unit -> IslRaw_Types.ctx
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Ctx.ml" 6 76 96 "IslRaw_Ctx.ml" 6 76 111
+type(
+  string
+)
+"IslRaw_Ctx.ml" 6 76 113 "IslRaw_Ctx.ml" 6 76 117
+type(
+  unit Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.void
+)
+"IslRaw_Ctx.ml" 6 76 118 "IslRaw_Ctx.ml" 6 76 121
+type(
+  unit Ctypes.typ ->
+  IslRaw_Types.ctx Ctypes.fn -> (unit -> IslRaw_Types.ctx) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Ctx.ml" 6 76 122 "IslRaw_Ctx.ml" 6 76 131
+type(
+  IslRaw_Types.ctx Ctypes.typ -> IslRaw_Types.ctx Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Ctx.ml" 6 76 132 "IslRaw_Ctx.ml" 6 76 135
+type(
+  IslRaw_Types.ctx Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.ctx
+)
+"IslRaw_Ctx.ml" 6 76 122 "IslRaw_Ctx.ml" 6 76 135
+call(
+  stack
+)
+type(
+  IslRaw_Types.ctx Ctypes.fn
+)
+"IslRaw_Ctx.ml" 6 76 112 "IslRaw_Ctx.ml" 6 76 136
+call(
+  stack
+)
+type(
+  (unit -> IslRaw_Types.ctx) Ctypes.fn
+)
+"IslRaw_Ctx.ml" 6 76 88 "IslRaw_Ctx.ml" 6 76 136
+call(
+  stack
+)
+type(
+  unit -> IslRaw_Types.ctx
+)
+"IslRaw_Ctx.ml" 8 180 184 "IslRaw_Ctx.ml" 8 180 188
+type(
+  IslRaw_Types.ctx -> unit
+)
+ident(
+  def free "IslRaw_Ctx.ml" 11 323 323 "IslRaw_Ctx.ml" 1 0 -1
+)
+"IslRaw_Ctx.ml" 8 180 191 "IslRaw_Ctx.ml" 8 180 198
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string -> (IslRaw_Types.ctx -> unit) Ctypes.fn -> IslRaw_Types.ctx -> unit
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Ctx.ml" 8 180 199 "IslRaw_Ctx.ml" 8 180 213
+type(
+  string
+)
+"IslRaw_Ctx.ml" 8 180 215 "IslRaw_Ctx.ml" 8 180 218
+type(
+  IslRaw_Types.ctx Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.ctx
+)
+"IslRaw_Ctx.ml" 8 180 219 "IslRaw_Ctx.ml" 8 180 222
+type(
+  IslRaw_Types.ctx Ctypes.typ ->
+  unit Ctypes.fn -> (IslRaw_Types.ctx -> unit) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Ctx.ml" 8 180 223 "IslRaw_Ctx.ml" 8 180 232
+type(
+  unit Ctypes.typ -> unit Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Ctx.ml" 8 180 233 "IslRaw_Ctx.ml" 8 180 237
+type(
+  unit Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.void
+)
+"IslRaw_Ctx.ml" 8 180 223 "IslRaw_Ctx.ml" 8 180 237
+call(
+  stack
+)
+type(
+  unit Ctypes.fn
+)
+"IslRaw_Ctx.ml" 8 180 214 "IslRaw_Ctx.ml" 8 180 238
+call(
+  stack
+)
+type(
+  (IslRaw_Types.ctx -> unit) Ctypes.fn
+)
+"IslRaw_Ctx.ml" 8 180 191 "IslRaw_Ctx.ml" 8 180 238
+call(
+  stack
+)
+type(
+  IslRaw_Types.ctx -> unit
+)
+"IslRaw_Ctx.ml" 11 323 327 "IslRaw_Ctx.ml" 11 323 345
+type(
+  IslRaw_Types.ctx -> Unsigned.ulong -> unit
+)
+ident(
+  def set_max_operations "IslRaw_Ctx.ml" 13 482 482 "IslRaw_Ctx.ml" 1 0 -1
+)
+"IslRaw_Ctx.ml" 11 323 348 "IslRaw_Ctx.ml" 11 323 355
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.ctx -> Unsigned.ulong -> unit) Ctypes.fn ->
+  IslRaw_Types.ctx -> Unsigned.ulong -> unit
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Ctx.ml" 11 323 356 "IslRaw_Ctx.ml" 11 323 384
+type(
+  string
+)
+"IslRaw_Ctx.ml" 11 323 386 "IslRaw_Ctx.ml" 11 323 389
+type(
+  IslRaw_Types.ctx Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.ctx
+)
+"IslRaw_Ctx.ml" 11 323 390 "IslRaw_Ctx.ml" 11 323 393
+type(
+  IslRaw_Types.ctx Ctypes.typ ->
+  (Unsigned.ulong -> unit) Ctypes.fn ->
+  (IslRaw_Types.ctx -> Unsigned.ulong -> unit) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Ctx.ml" 11 323 394 "IslRaw_Ctx.ml" 11 323 399
+type(
+  Unsigned.ulong Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.ulong
+)
+"IslRaw_Ctx.ml" 11 323 400 "IslRaw_Ctx.ml" 11 323 403
+type(
+  Unsigned.ulong Ctypes.typ ->
+  unit Ctypes.fn -> (Unsigned.ulong -> unit) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Ctx.ml" 11 323 404 "IslRaw_Ctx.ml" 11 323 413
+type(
+  unit Ctypes.typ -> unit Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Ctx.ml" 11 323 414 "IslRaw_Ctx.ml" 11 323 418
+type(
+  unit Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.void
+)
+"IslRaw_Ctx.ml" 11 323 404 "IslRaw_Ctx.ml" 11 323 418
+call(
+  stack
+)
+type(
+  unit Ctypes.fn
+)
+"IslRaw_Ctx.ml" 11 323 394 "IslRaw_Ctx.ml" 11 323 418
+call(
+  stack
+)
+type(
+  (Unsigned.ulong -> unit) Ctypes.fn
+)
+"IslRaw_Ctx.ml" 11 323 385 "IslRaw_Ctx.ml" 11 323 419
+call(
+  stack
+)
+type(
+  (IslRaw_Types.ctx -> Unsigned.ulong -> unit) Ctypes.fn
+)
+"IslRaw_Ctx.ml" 11 323 348 "IslRaw_Ctx.ml" 11 323 419
+call(
+  stack
+)
+type(
+  IslRaw_Types.ctx -> Unsigned.ulong -> unit
+)
+"IslRaw_Ctx.ml" 13 482 486 "IslRaw_Ctx.ml" 13 482 504
+type(
+  IslRaw_Types.ctx -> Unsigned.ulong
+)
+ident(
+  def get_max_operations "IslRaw_Ctx.ml" 15 621 621 "IslRaw_Ctx.ml" 1 0 -1
+)
+"IslRaw_Ctx.ml" 13 482 507 "IslRaw_Ctx.ml" 13 482 514
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string ->
+  (IslRaw_Types.ctx -> Unsigned.ulong) Ctypes.fn ->
+  IslRaw_Types.ctx -> Unsigned.ulong
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Ctx.ml" 13 482 515 "IslRaw_Ctx.ml" 13 482 543
+type(
+  string
+)
+"IslRaw_Ctx.ml" 13 482 545 "IslRaw_Ctx.ml" 13 482 548
+type(
+  IslRaw_Types.ctx Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.ctx
+)
+"IslRaw_Ctx.ml" 13 482 549 "IslRaw_Ctx.ml" 13 482 552
+type(
+  IslRaw_Types.ctx Ctypes.typ ->
+  Unsigned.ulong Ctypes.fn -> (IslRaw_Types.ctx -> Unsigned.ulong) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Ctx.ml" 13 482 553 "IslRaw_Ctx.ml" 13 482 562
+type(
+  Unsigned.ulong Ctypes.typ -> Unsigned.ulong Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Ctx.ml" 13 482 563 "IslRaw_Ctx.ml" 13 482 568
+type(
+  Unsigned.ulong Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.ulong
+)
+"IslRaw_Ctx.ml" 13 482 553 "IslRaw_Ctx.ml" 13 482 568
+call(
+  stack
+)
+type(
+  Unsigned.ulong Ctypes.fn
+)
+"IslRaw_Ctx.ml" 13 482 544 "IslRaw_Ctx.ml" 13 482 569
+call(
+  stack
+)
+type(
+  (IslRaw_Types.ctx -> Unsigned.ulong) Ctypes.fn
+)
+"IslRaw_Ctx.ml" 13 482 507 "IslRaw_Ctx.ml" 13 482 569
+call(
+  stack
+)
+type(
+  IslRaw_Types.ctx -> Unsigned.ulong
+)
+"IslRaw_Ctx.ml" 15 621 625 "IslRaw_Ctx.ml" 15 621 641
+type(
+  IslRaw_Types.ctx -> unit
+)
+ident(
+  def reset_operations "IslRaw_Ctx.ml" 15 621 703 "IslRaw_Ctx.ml" 1 0 -1
+)
+"IslRaw_Ctx.ml" 15 621 644 "IslRaw_Ctx.ml" 15 621 651
+type(
+  ?abi:Libffi_abi.abi ->
+  ?from:Dl.library ->
+  ?stub:bool ->
+  ?check_errno:bool ->
+  ?release_runtime_lock:bool ->
+  string -> (IslRaw_Types.ctx -> unit) Ctypes.fn -> IslRaw_Types.ctx -> unit
+)
+ident(
+  ext_ref Foreign.foreign
+)
+"IslRaw_Ctx.ml" 15 621 652 "IslRaw_Ctx.ml" 15 621 678
+type(
+  string
+)
+"IslRaw_Ctx.ml" 15 621 680 "IslRaw_Ctx.ml" 15 621 683
+type(
+  IslRaw_Types.ctx Ctypes.typ
+)
+ident(
+  ext_ref IslRaw_Types.ctx
+)
+"IslRaw_Ctx.ml" 15 621 684 "IslRaw_Ctx.ml" 15 621 687
+type(
+  IslRaw_Types.ctx Ctypes.typ ->
+  unit Ctypes.fn -> (IslRaw_Types.ctx -> unit) Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.( @-> )
+)
+"IslRaw_Ctx.ml" 15 621 688 "IslRaw_Ctx.ml" 15 621 697
+type(
+  unit Ctypes.typ -> unit Ctypes.fn
+)
+ident(
+  ext_ref Ctypes.returning
+)
+"IslRaw_Ctx.ml" 15 621 698 "IslRaw_Ctx.ml" 15 621 702
+type(
+  unit Ctypes.typ
+)
+ident(
+  ext_ref Ctypes.void
+)
+"IslRaw_Ctx.ml" 15 621 688 "IslRaw_Ctx.ml" 15 621 702
+call(
+  stack
+)
+type(
+  unit Ctypes.fn
+)
+"IslRaw_Ctx.ml" 15 621 679 "IslRaw_Ctx.ml" 15 621 703
+call(
+  stack
+)
+type(
+  (IslRaw_Types.ctx -> unit) Ctypes.fn
+)
+"IslRaw_Ctx.ml" 15 621 644 "IslRaw_Ctx.ml" 15 621 703
+call(
+  stack
+)
+type(
+  IslRaw_Types.ctx -> unit
+)

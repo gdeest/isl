@@ -1,0 +1,8 @@
+open IslRaw
+
+module type CTX = sig
+  val ctx : IslRaw.ctx
+end
+
+module Make (CTX: CTX) = struct
+end

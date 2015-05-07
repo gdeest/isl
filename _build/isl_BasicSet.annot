@@ -1,0 +1,1407 @@
+"isl_BasicSet.ml" 20 449 455 "isl_BasicSet.ml" 20 449 459
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  def copy "isl_BasicSet.ml" 21 476 478 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 20 449 462 "isl_BasicSet.ml" 20 449 475
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.copy
+)
+"isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  def wrap "isl_BasicSet.ml" 23 519 521 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 21 476 489 "isl_BasicSet.ml" 21 476 503
+type(
+  (IslRaw_Types.basic_set -> unit) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Isl_Utils.wrap
+)
+"isl_BasicSet.ml" 21 476 504 "isl_BasicSet.ml" 21 476 517
+type(
+  IslRaw_Types.basic_set -> unit
+)
+ident(
+  ext_ref IslRaw.BasicSet.free
+)
+"isl_BasicSet.ml" 21 476 489 "isl_BasicSet.ml" 21 476 517
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 23 519 525 "isl_BasicSet.ml" 23 519 530
+type(
+  IslRaw_Types.space -> IslRaw_Types.basic_set
+)
+ident(
+  def empty "isl_BasicSet.ml" 24 573 575 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 23 519 531 "isl_BasicSet.ml" 23 519 532
+type(
+  IslRaw_Types.space
+)
+ident(
+  def s "isl_BasicSet.ml" 23 519 535 "isl_BasicSet.ml" 23 519 572
+)
+"isl_BasicSet.ml" 23 519 535 "isl_BasicSet.ml" 23 519 539
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 23 519 540 "isl_BasicSet.ml" 23 519 542
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 23 519 543 "isl_BasicSet.ml" 23 519 557
+type(
+  IslRaw_Types.space -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.empty
+)
+"isl_BasicSet.ml" 23 519 559 "isl_BasicSet.ml" 23 519 569
+type(
+  IslRaw_Types.space -> IslRaw_Types.space
+)
+ident(
+  ext_ref IslRaw.Space.copy
+)
+"isl_BasicSet.ml" 23 519 570 "isl_BasicSet.ml" 23 519 571
+type(
+  IslRaw_Types.space
+)
+ident(
+  int_ref s "isl_BasicSet.ml" 23 519 531 "isl_BasicSet.ml" 23 519 532
+)
+"isl_BasicSet.ml" 23 519 558 "isl_BasicSet.ml" 23 519 572
+call(
+  stack
+)
+type(
+  IslRaw_Types.space
+)
+"isl_BasicSet.ml" 23 519 543 "isl_BasicSet.ml" 23 519 572
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 23 519 535 "isl_BasicSet.ml" 23 519 572
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 24 573 579 "isl_BasicSet.ml" 24 573 587
+type(
+  IslRaw_Types.space -> IslRaw_Types.basic_set
+)
+ident(
+  def universe "isl_BasicSet.ml" 25 633 635 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 24 573 588 "isl_BasicSet.ml" 24 573 589
+type(
+  IslRaw_Types.space
+)
+ident(
+  def s "isl_BasicSet.ml" 24 573 592 "isl_BasicSet.ml" 24 573 632
+)
+"isl_BasicSet.ml" 24 573 592 "isl_BasicSet.ml" 24 573 596
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 24 573 597 "isl_BasicSet.ml" 24 573 599
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 24 573 600 "isl_BasicSet.ml" 24 573 617
+type(
+  IslRaw_Types.space -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.universe
+)
+"isl_BasicSet.ml" 24 573 619 "isl_BasicSet.ml" 24 573 629
+type(
+  IslRaw_Types.space -> IslRaw_Types.space
+)
+ident(
+  ext_ref IslRaw.Space.copy
+)
+"isl_BasicSet.ml" 24 573 630 "isl_BasicSet.ml" 24 573 631
+type(
+  IslRaw_Types.space
+)
+ident(
+  int_ref s "isl_BasicSet.ml" 24 573 588 "isl_BasicSet.ml" 24 573 589
+)
+"isl_BasicSet.ml" 24 573 618 "isl_BasicSet.ml" 24 573 632
+call(
+  stack
+)
+type(
+  IslRaw_Types.space
+)
+"isl_BasicSet.ml" 24 573 600 "isl_BasicSet.ml" 24 573 632
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 24 573 592 "isl_BasicSet.ml" 24 573 632
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 25 633 639 "isl_BasicSet.ml" 25 633 651
+type(
+  IslRaw_Types.space -> IslRaw_Types.basic_set
+)
+ident(
+  def nat_universe "isl_BasicSet.ml" 26 701 703 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 25 633 652 "isl_BasicSet.ml" 25 633 653
+type(
+  IslRaw_Types.space
+)
+ident(
+  def s "isl_BasicSet.ml" 25 633 656 "isl_BasicSet.ml" 25 633 700
+)
+"isl_BasicSet.ml" 25 633 656 "isl_BasicSet.ml" 25 633 660
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 25 633 661 "isl_BasicSet.ml" 25 633 663
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 25 633 664 "isl_BasicSet.ml" 25 633 685
+type(
+  IslRaw_Types.space -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.nat_universe
+)
+"isl_BasicSet.ml" 25 633 687 "isl_BasicSet.ml" 25 633 697
+type(
+  IslRaw_Types.space -> IslRaw_Types.space
+)
+ident(
+  ext_ref IslRaw.Space.copy
+)
+"isl_BasicSet.ml" 25 633 698 "isl_BasicSet.ml" 25 633 699
+type(
+  IslRaw_Types.space
+)
+ident(
+  int_ref s "isl_BasicSet.ml" 25 633 652 "isl_BasicSet.ml" 25 633 653
+)
+"isl_BasicSet.ml" 25 633 686 "isl_BasicSet.ml" 25 633 700
+call(
+  stack
+)
+type(
+  IslRaw_Types.space
+)
+"isl_BasicSet.ml" 25 633 664 "isl_BasicSet.ml" 25 633 700
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 25 633 656 "isl_BasicSet.ml" 25 633 700
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 26 701 707 "isl_BasicSet.ml" 26 701 721
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.constrnt -> IslRaw_Types.basic_set
+)
+ident(
+  def add_constraint "isl_BasicSet.ml" 28 797 799 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 26 701 722 "isl_BasicSet.ml" 26 701 724
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 26 701 725 "isl_BasicSet.ml" 27 761 796
+)
+"isl_BasicSet.ml" 26 701 725 "isl_BasicSet.ml" 26 701 726
+type(
+  IslRaw_Types.constrnt
+)
+ident(
+  def c "isl_BasicSet.ml" 26 701 729 "isl_BasicSet.ml" 27 761 796
+)
+"isl_BasicSet.ml" 26 701 729 "isl_BasicSet.ml" 26 701 733
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 26 701 734 "isl_BasicSet.ml" 26 701 736
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 26 701 737 "isl_BasicSet.ml" 26 701 760
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.constrnt -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.add_constraint
+)
+"isl_BasicSet.ml" 27 761 768 "isl_BasicSet.ml" 27 761 772
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref copy "isl_BasicSet.ml" 20 449 455 "isl_BasicSet.ml" 20 449 459
+)
+"isl_BasicSet.ml" 27 761 773 "isl_BasicSet.ml" 27 761 775
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 26 701 722 "isl_BasicSet.ml" 26 701 724
+)
+"isl_BasicSet.ml" 27 761 767 "isl_BasicSet.ml" 27 761 776
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 27 761 778 "isl_BasicSet.ml" 27 761 793
+type(
+  IslRaw_Types.constrnt -> IslRaw_Types.constrnt
+)
+ident(
+  ext_ref IslRaw.Constraint.copy
+)
+"isl_BasicSet.ml" 27 761 794 "isl_BasicSet.ml" 27 761 795
+type(
+  IslRaw_Types.constrnt
+)
+ident(
+  int_ref c "isl_BasicSet.ml" 26 701 725 "isl_BasicSet.ml" 26 701 726
+)
+"isl_BasicSet.ml" 27 761 777 "isl_BasicSet.ml" 27 761 796
+call(
+  stack
+)
+type(
+  IslRaw_Types.constrnt
+)
+"isl_BasicSet.ml" 26 701 737 "isl_BasicSet.ml" 27 761 796
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 26 701 729 "isl_BasicSet.ml" 27 761 796
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 28 797 803 "isl_BasicSet.ml" 28 797 818
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.constrnt -> IslRaw_Types.basic_set
+)
+ident(
+  def drop_constraint "isl_BasicSet.ml" 30 895 897 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 28 797 819 "isl_BasicSet.ml" 28 797 821
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 28 797 822 "isl_BasicSet.ml" 29 859 894
+)
+"isl_BasicSet.ml" 28 797 822 "isl_BasicSet.ml" 28 797 823
+type(
+  IslRaw_Types.constrnt
+)
+ident(
+  def c "isl_BasicSet.ml" 28 797 826 "isl_BasicSet.ml" 29 859 894
+)
+"isl_BasicSet.ml" 28 797 826 "isl_BasicSet.ml" 28 797 830
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 28 797 831 "isl_BasicSet.ml" 28 797 833
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 28 797 834 "isl_BasicSet.ml" 28 797 858
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.constrnt -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.drop_constraint
+)
+"isl_BasicSet.ml" 29 859 866 "isl_BasicSet.ml" 29 859 870
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref copy "isl_BasicSet.ml" 20 449 455 "isl_BasicSet.ml" 20 449 459
+)
+"isl_BasicSet.ml" 29 859 871 "isl_BasicSet.ml" 29 859 873
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 28 797 819 "isl_BasicSet.ml" 28 797 821
+)
+"isl_BasicSet.ml" 29 859 865 "isl_BasicSet.ml" 29 859 874
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 29 859 876 "isl_BasicSet.ml" 29 859 891
+type(
+  IslRaw_Types.constrnt -> IslRaw_Types.constrnt
+)
+ident(
+  ext_ref IslRaw.Constraint.copy
+)
+"isl_BasicSet.ml" 29 859 892 "isl_BasicSet.ml" 29 859 893
+type(
+  IslRaw_Types.constrnt
+)
+ident(
+  int_ref c "isl_BasicSet.ml" 28 797 822 "isl_BasicSet.ml" 28 797 823
+)
+"isl_BasicSet.ml" 29 859 875 "isl_BasicSet.ml" 29 859 894
+call(
+  stack
+)
+type(
+  IslRaw_Types.constrnt
+)
+"isl_BasicSet.ml" 28 797 834 "isl_BasicSet.ml" 29 859 894
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 28 797 826 "isl_BasicSet.ml" 29 859 894
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 30 895 901 "isl_BasicSet.ml" 30 895 912
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.local_space
+)
+ident(
+  def local_space "isl_BasicSet.ml" 32 988 990 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 30 895 913 "isl_BasicSet.ml" 30 895 915
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 30 895 918 "isl_BasicSet.ml" 30 895 986
+)
+"isl_BasicSet.ml" 30 895 918 "isl_BasicSet.ml" 30 895 932
+type(
+  (IslRaw_Types.local_space -> unit) ->
+  IslRaw_Types.local_space -> IslRaw_Types.local_space
+)
+ident(
+  ext_ref Isl_Utils.wrap
+)
+"isl_BasicSet.ml" 30 895 933 "isl_BasicSet.ml" 30 895 955
+type(
+  IslRaw_Types.local_space -> unit
+)
+ident(
+  ext_ref IslRaw.LocalSpace.free
+)
+"isl_BasicSet.ml" 30 895 918 "isl_BasicSet.ml" 30 895 955
+type(
+  IslRaw_Types.local_space -> IslRaw_Types.local_space
+)
+"isl_BasicSet.ml" 30 895 956 "isl_BasicSet.ml" 30 895 958
+type(
+  (IslRaw_Types.local_space -> IslRaw_Types.local_space) ->
+  IslRaw_Types.local_space -> IslRaw_Types.local_space
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 30 895 959 "isl_BasicSet.ml" 30 895 983
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.local_space
+)
+ident(
+  ext_ref IslRaw.BasicSet.get_local_space
+)
+"isl_BasicSet.ml" 30 895 984 "isl_BasicSet.ml" 30 895 986
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 30 895 913 "isl_BasicSet.ml" 30 895 915
+)
+"isl_BasicSet.ml" 30 895 959 "isl_BasicSet.ml" 30 895 986
+call(
+  stack
+)
+type(
+  IslRaw_Types.local_space
+)
+"isl_BasicSet.ml" 30 895 918 "isl_BasicSet.ml" 30 895 986
+call(
+  tail
+)
+type(
+  IslRaw_Types.local_space
+)
+"isl_BasicSet.ml" 32 988 994 "isl_BasicSet.ml" 32 988 1005
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  def remove_divs "isl_BasicSet.ml" 33 1050 1052 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 32 988 1006 "isl_BasicSet.ml" 32 988 1008
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 32 988 1011 "isl_BasicSet.ml" 32 988 1049
+)
+"isl_BasicSet.ml" 32 988 1011 "isl_BasicSet.ml" 32 988 1015
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 32 988 1016 "isl_BasicSet.ml" 32 988 1018
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 32 988 1019 "isl_BasicSet.ml" 32 988 1039
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.remove_divs
+)
+"isl_BasicSet.ml" 32 988 1041 "isl_BasicSet.ml" 32 988 1045
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref copy "isl_BasicSet.ml" 20 449 455 "isl_BasicSet.ml" 20 449 459
+)
+"isl_BasicSet.ml" 32 988 1046 "isl_BasicSet.ml" 32 988 1048
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 32 988 1006 "isl_BasicSet.ml" 32 988 1008
+)
+"isl_BasicSet.ml" 32 988 1040 "isl_BasicSet.ml" 32 988 1049
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 32 988 1019 "isl_BasicSet.ml" 32 988 1049
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 32 988 1011 "isl_BasicSet.ml" 32 988 1049
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 33 1050 1056 "isl_BasicSet.ml" 33 1050 1082
+type(
+  IslRaw_Types.basic_set ->
+  [< Isl_Types.dim_type ] -> first:int -> n:int -> IslRaw_Types.basic_set
+)
+ident(
+  def remove_divs_involving_dims "isl_BasicSet.ml" 35 1240 1242 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 33 1050 1083 "isl_BasicSet.ml" 33 1050 1085
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 33 1050 1086 "isl_BasicSet.ml" 34 1107 1239
+)
+"isl_BasicSet.ml" 33 1050 1086 "isl_BasicSet.ml" 33 1050 1094
+type(
+  [< Isl_Types.dim_type ] as 'a
+)
+ident(
+  def dim_type "isl_BasicSet.ml" 33 1050 1095 "isl_BasicSet.ml" 34 1107 1239
+)
+"isl_BasicSet.ml" 33 1050 1096 "isl_BasicSet.ml" 33 1050 1101
+type(
+  int
+)
+ident(
+  def first "isl_BasicSet.ml" 33 1050 1102 "isl_BasicSet.ml" 34 1107 1239
+)
+"isl_BasicSet.ml" 33 1050 1103 "isl_BasicSet.ml" 33 1050 1104
+type(
+  int
+)
+ident(
+  def n "isl_BasicSet.ml" 34 1107 1111 "isl_BasicSet.ml" 34 1107 1239
+)
+"isl_BasicSet.ml" 34 1107 1111 "isl_BasicSet.ml" 34 1107 1115
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 34 1107 1116 "isl_BasicSet.ml" 34 1107 1118
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 34 1107 1119 "isl_BasicSet.ml" 34 1107 1154
+type(
+  IslRaw_Types.basic_set ->
+  IslRaw_Types.dim_type ->
+  Unsigned.uint -> Unsigned.uint -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.remove_divs_involving_dims
+)
+"isl_BasicSet.ml" 34 1107 1156 "isl_BasicSet.ml" 34 1107 1160
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref copy "isl_BasicSet.ml" 20 449 455 "isl_BasicSet.ml" 20 449 459
+)
+"isl_BasicSet.ml" 34 1107 1161 "isl_BasicSet.ml" 34 1107 1163
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 33 1050 1083 "isl_BasicSet.ml" 33 1050 1085
+)
+"isl_BasicSet.ml" 34 1107 1155 "isl_BasicSet.ml" 34 1107 1164
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 34 1107 1166 "isl_BasicSet.ml" 34 1107 1175
+type(
+  'a -> IslRaw_Types.dim_type
+)
+ident(
+  ext_ref Isl_Types.to_raw_dt
+)
+"isl_BasicSet.ml" 34 1107 1176 "isl_BasicSet.ml" 34 1107 1184
+type(
+  'a
+)
+ident(
+  int_ref dim_type "isl_BasicSet.ml" 33 1050 1086 "isl_BasicSet.ml" 33 1050 1094
+)
+"isl_BasicSet.ml" 34 1107 1165 "isl_BasicSet.ml" 34 1107 1185
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 34 1107 1187 "isl_BasicSet.ml" 34 1107 1207
+type(
+  int -> Unsigned.uint
+)
+ident(
+  ext_ref Unsigned.UInt.of_int
+)
+"isl_BasicSet.ml" 34 1107 1208 "isl_BasicSet.ml" 34 1107 1213
+type(
+  int
+)
+ident(
+  int_ref first "isl_BasicSet.ml" 33 1050 1096 "isl_BasicSet.ml" 33 1050 1101
+)
+"isl_BasicSet.ml" 34 1107 1186 "isl_BasicSet.ml" 34 1107 1214
+call(
+  stack
+)
+type(
+  Unsigned.uint
+)
+"isl_BasicSet.ml" 34 1107 1216 "isl_BasicSet.ml" 34 1107 1236
+type(
+  int -> Unsigned.uint
+)
+ident(
+  ext_ref Unsigned.UInt.of_int
+)
+"isl_BasicSet.ml" 34 1107 1237 "isl_BasicSet.ml" 34 1107 1238
+type(
+  int
+)
+ident(
+  int_ref n "isl_BasicSet.ml" 33 1050 1103 "isl_BasicSet.ml" 33 1050 1104
+)
+"isl_BasicSet.ml" 34 1107 1215 "isl_BasicSet.ml" 34 1107 1239
+call(
+  stack
+)
+type(
+  Unsigned.uint
+)
+"isl_BasicSet.ml" 34 1107 1119 "isl_BasicSet.ml" 34 1107 1239
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 34 1107 1111 "isl_BasicSet.ml" 34 1107 1239
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 35 1240 1246 "isl_BasicSet.ml" 35 1240 1265
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  def remove_unknown_divs "isl_BasicSet.ml" 37 1319 1321 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 35 1240 1266 "isl_BasicSet.ml" 35 1240 1268
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 35 1240 1271 "isl_BasicSet.ml" 35 1240 1317
+)
+"isl_BasicSet.ml" 35 1240 1271 "isl_BasicSet.ml" 35 1240 1275
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref wrap "isl_BasicSet.ml" 21 476 482 "isl_BasicSet.ml" 21 476 486
+)
+"isl_BasicSet.ml" 35 1240 1276 "isl_BasicSet.ml" 35 1240 1278
+type(
+  (IslRaw_Types.basic_set -> IslRaw_Types.basic_set) ->
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 35 1240 1279 "isl_BasicSet.ml" 35 1240 1307
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  ext_ref IslRaw.BasicSet.remove_unknown_divs
+)
+"isl_BasicSet.ml" 35 1240 1309 "isl_BasicSet.ml" 35 1240 1313
+type(
+  IslRaw_Types.basic_set -> IslRaw_Types.basic_set
+)
+ident(
+  int_ref copy "isl_BasicSet.ml" 20 449 455 "isl_BasicSet.ml" 20 449 459
+)
+"isl_BasicSet.ml" 35 1240 1314 "isl_BasicSet.ml" 35 1240 1316
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 35 1240 1266 "isl_BasicSet.ml" 35 1240 1268
+)
+"isl_BasicSet.ml" 35 1240 1308 "isl_BasicSet.ml" 35 1240 1317
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 35 1240 1279 "isl_BasicSet.ml" 35 1240 1317
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 35 1240 1271 "isl_BasicSet.ml" 35 1240 1317
+call(
+  tail
+)
+type(
+  IslRaw_Types.basic_set
+)
+"isl_BasicSet.ml" 37 1319 1325 "isl_BasicSet.ml" 37 1319 1337
+type(
+  IslRaw_Types.basic_set -> int
+)
+ident(
+  def n_constraint "isl_BasicSet.ml" 38 1362 1364 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 37 1319 1340 "isl_BasicSet.ml" 37 1319 1361
+type(
+  IslRaw_Types.basic_set -> int
+)
+ident(
+  ext_ref IslRaw.BasicSet.n_constraint
+)
+"isl_BasicSet.ml" 38 1362 1368 "isl_BasicSet.ml" 38 1362 1386
+type(
+  IslRaw_Types.basic_set -> (IslRaw_Types.constrnt -> bool) -> unit
+)
+ident(
+  def foreach_constraint "isl_BasicSet.ml" 42 1503 1505 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 38 1362 1387 "isl_BasicSet.ml" 38 1362 1389
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 38 1362 1390 "isl_BasicSet.ml" 40 1439 1501
+)
+"isl_BasicSet.ml" 38 1362 1390 "isl_BasicSet.ml" 38 1362 1391
+type(
+  IslRaw_Types.constrnt -> bool
+)
+ident(
+  def f "isl_BasicSet.ml" 39 1394 1398 "isl_BasicSet.ml" 40 1439 1501
+)
+"isl_BasicSet.ml" 39 1394 1402 "isl_BasicSet.ml" 39 1394 1403
+type(
+  IslRaw_Types.constrnt -> 'b -> int
+)
+ident(
+  def f "isl_BasicSet.ml" 40 1439 1443 "isl_BasicSet.ml" 40 1439 1501
+)
+"isl_BasicSet.ml" 39 1394 1404 "isl_BasicSet.ml" 39 1394 1405
+type(
+  IslRaw_Types.constrnt
+)
+ident(
+  def c "isl_BasicSet.ml" 39 1394 1406 "isl_BasicSet.ml" 39 1394 1435
+)
+"isl_BasicSet.ml" 39 1394 1406 "isl_BasicSet.ml" 39 1394 1407
+type(
+  'b
+)
+"isl_BasicSet.ml" 39 1394 1414 "isl_BasicSet.ml" 39 1394 1415
+type(
+  IslRaw_Types.constrnt -> bool
+)
+ident(
+  int_ref f "isl_BasicSet.ml" 38 1362 1390 "isl_BasicSet.ml" 38 1362 1391
+)
+"isl_BasicSet.ml" 39 1394 1416 "isl_BasicSet.ml" 39 1394 1417
+type(
+  IslRaw_Types.constrnt
+)
+ident(
+  int_ref c "isl_BasicSet.ml" 39 1394 1404 "isl_BasicSet.ml" 39 1394 1405
+)
+"isl_BasicSet.ml" 39 1394 1413 "isl_BasicSet.ml" 39 1394 1418
+call(
+  stack
+)
+type(
+  bool
+)
+"isl_BasicSet.ml" 39 1394 1424 "isl_BasicSet.ml" 39 1394 1425
+type(
+  int
+)
+"isl_BasicSet.ml" 39 1394 1431 "isl_BasicSet.ml" 39 1394 1435
+type(
+  int
+)
+"isl_BasicSet.ml" 39 1394 1410 "isl_BasicSet.ml" 39 1394 1435
+type(
+  int
+)
+"isl_BasicSet.ml" 40 1439 1447 "isl_BasicSet.ml" 40 1439 1448
+type(
+  int
+)
+"isl_BasicSet.ml" 40 1439 1451 "isl_BasicSet.ml" 40 1439 1478
+type(
+  IslRaw_Types.basic_set ->
+  (IslRaw_Types.constrnt -> unit Ctypes_static.ptr -> int) ->
+  unit Ctypes_static.ptr -> int
+)
+ident(
+  ext_ref IslRaw.BasicSet.foreach_constraint
+)
+"isl_BasicSet.ml" 40 1439 1479 "isl_BasicSet.ml" 40 1439 1481
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 38 1362 1387 "isl_BasicSet.ml" 38 1362 1389
+)
+"isl_BasicSet.ml" 40 1439 1482 "isl_BasicSet.ml" 40 1439 1483
+type(
+  IslRaw_Types.constrnt -> unit Ctypes_static.ptr -> int
+)
+ident(
+  int_ref f "isl_BasicSet.ml" 39 1394 1402 "isl_BasicSet.ml" 39 1394 1403
+)
+"isl_BasicSet.ml" 40 1439 1484 "isl_BasicSet.ml" 40 1439 1495
+type(
+  unit Ctypes.ptr
+)
+ident(
+  ext_ref Ctypes.null
+)
+"isl_BasicSet.ml" 40 1439 1451 "isl_BasicSet.ml" 40 1439 1495
+call(
+  stack
+)
+type(
+  int
+)
+"isl_BasicSet.ml" 40 1439 1499 "isl_BasicSet.ml" 40 1439 1501
+type(
+  unit
+)
+"isl_BasicSet.ml" 40 1439 1443 "isl_BasicSet.ml" 40 1439 1501
+type(
+  unit
+)
+"isl_BasicSet.ml" 39 1394 1398 "isl_BasicSet.ml" 40 1439 1501
+type(
+  unit
+)
+"isl_BasicSet.ml" 42 1503 1509 "isl_BasicSet.ml" 42 1503 1526
+type(
+  IslRaw_Types.basic_set ->
+  [< Isl_Types.dim_type ] ->
+  [< Isl_Types.dim_type ] ->
+  [< Isl_Types.dim_type ] -> [< Isl_Types.dim_type ] -> IslRaw_Types.matrix
+)
+ident(
+  def equalities_matrix "isl_BasicSet.ml" 46 1688 1690 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 42 1503 1527 "isl_BasicSet.ml" 42 1503 1529
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 42 1503 1530 "isl_BasicSet.ml" 44 1613 1686
+)
+"isl_BasicSet.ml" 42 1503 1530 "isl_BasicSet.ml" 42 1503 1533
+type(
+  [< Isl_Types.dim_type ] as 'c
+)
+ident(
+  def dt1 "isl_BasicSet.ml" 42 1503 1534 "isl_BasicSet.ml" 44 1613 1686
+)
+"isl_BasicSet.ml" 42 1503 1534 "isl_BasicSet.ml" 42 1503 1537
+type(
+  [< Isl_Types.dim_type ] as 'd
+)
+ident(
+  def dt2 "isl_BasicSet.ml" 42 1503 1538 "isl_BasicSet.ml" 44 1613 1686
+)
+"isl_BasicSet.ml" 42 1503 1538 "isl_BasicSet.ml" 42 1503 1541
+type(
+  [< Isl_Types.dim_type ] as 'e
+)
+ident(
+  def dt3 "isl_BasicSet.ml" 42 1503 1542 "isl_BasicSet.ml" 44 1613 1686
+)
+"isl_BasicSet.ml" 42 1503 1542 "isl_BasicSet.ml" 42 1503 1545
+type(
+  [< Isl_Types.dim_type ] as 'f
+)
+ident(
+  def dt4 "isl_BasicSet.ml" 42 1503 1548 "isl_BasicSet.ml" 44 1613 1686
+)
+"isl_BasicSet.ml" 42 1503 1548 "isl_BasicSet.ml" 42 1503 1562
+type(
+  (IslRaw_Types.matrix -> unit) -> IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref Isl_Utils.wrap
+)
+"isl_BasicSet.ml" 42 1503 1563 "isl_BasicSet.ml" 42 1503 1581
+type(
+  IslRaw_Types.matrix -> unit
+)
+ident(
+  ext_ref IslRaw_Matrix.free
+)
+"isl_BasicSet.ml" 42 1503 1548 "isl_BasicSet.ml" 42 1503 1581
+type(
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 42 1503 1582 "isl_BasicSet.ml" 42 1503 1584
+type(
+  (IslRaw_Types.matrix -> IslRaw_Types.matrix) ->
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 43 1585 1593 "isl_BasicSet.ml" 43 1585 1596
+type(
+  [< Isl_Types.dim_type ] -> IslRaw_Types.dim_type
+)
+ident(
+  def tdt "isl_BasicSet.ml" 44 1613 1617 "isl_BasicSet.ml" 44 1613 1686
+)
+"isl_BasicSet.ml" 43 1585 1599 "isl_BasicSet.ml" 43 1585 1608
+type(
+  ([< Isl_Types.dim_type ] as 'g) -> IslRaw_Types.dim_type
+)
+ident(
+  ext_ref Isl_Types.to_raw_dt
+)
+"isl_BasicSet.ml" 44 1613 1617 "isl_BasicSet.ml" 44 1613 1643
+type(
+  IslRaw_Types.basic_set ->
+  IslRaw_Types.dim_type ->
+  IslRaw_Types.dim_type ->
+  IslRaw_Types.dim_type -> IslRaw_Types.dim_type -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref IslRaw.BasicSet.equalities_matrix
+)
+"isl_BasicSet.ml" 44 1613 1644 "isl_BasicSet.ml" 44 1613 1646
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 42 1503 1527 "isl_BasicSet.ml" 42 1503 1529
+)
+"isl_BasicSet.ml" 44 1613 1648 "isl_BasicSet.ml" 44 1613 1651
+type(
+  'c -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 43 1585 1593 "isl_BasicSet.ml" 43 1585 1596
+)
+"isl_BasicSet.ml" 44 1613 1652 "isl_BasicSet.ml" 44 1613 1655
+type(
+  'c
+)
+ident(
+  int_ref dt1 "isl_BasicSet.ml" 42 1503 1530 "isl_BasicSet.ml" 42 1503 1533
+)
+"isl_BasicSet.ml" 44 1613 1647 "isl_BasicSet.ml" 44 1613 1656
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 44 1613 1658 "isl_BasicSet.ml" 44 1613 1661
+type(
+  'd -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 43 1585 1593 "isl_BasicSet.ml" 43 1585 1596
+)
+"isl_BasicSet.ml" 44 1613 1662 "isl_BasicSet.ml" 44 1613 1665
+type(
+  'd
+)
+ident(
+  int_ref dt2 "isl_BasicSet.ml" 42 1503 1534 "isl_BasicSet.ml" 42 1503 1537
+)
+"isl_BasicSet.ml" 44 1613 1657 "isl_BasicSet.ml" 44 1613 1666
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 44 1613 1668 "isl_BasicSet.ml" 44 1613 1671
+type(
+  'e -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 43 1585 1593 "isl_BasicSet.ml" 43 1585 1596
+)
+"isl_BasicSet.ml" 44 1613 1672 "isl_BasicSet.ml" 44 1613 1675
+type(
+  'e
+)
+ident(
+  int_ref dt3 "isl_BasicSet.ml" 42 1503 1538 "isl_BasicSet.ml" 42 1503 1541
+)
+"isl_BasicSet.ml" 44 1613 1667 "isl_BasicSet.ml" 44 1613 1676
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 44 1613 1678 "isl_BasicSet.ml" 44 1613 1681
+type(
+  'f -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 43 1585 1593 "isl_BasicSet.ml" 43 1585 1596
+)
+"isl_BasicSet.ml" 44 1613 1682 "isl_BasicSet.ml" 44 1613 1685
+type(
+  'f
+)
+ident(
+  int_ref dt4 "isl_BasicSet.ml" 42 1503 1542 "isl_BasicSet.ml" 42 1503 1545
+)
+"isl_BasicSet.ml" 44 1613 1677 "isl_BasicSet.ml" 44 1613 1686
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 44 1613 1617 "isl_BasicSet.ml" 44 1613 1686
+call(
+  stack
+)
+type(
+  IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 43 1585 1589 "isl_BasicSet.ml" 44 1613 1686
+type(
+  IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 42 1503 1548 "isl_BasicSet.ml" 44 1613 1686
+call(
+  tail
+)
+type(
+  IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 46 1688 1694 "isl_BasicSet.ml" 46 1688 1713
+type(
+  IslRaw_Types.basic_set ->
+  [< Isl_Types.dim_type ] ->
+  [< Isl_Types.dim_type ] ->
+  [< Isl_Types.dim_type ] -> [< Isl_Types.dim_type ] -> IslRaw_Types.matrix
+)
+ident(
+  def inequalities_matrix "isl_BasicSet.ml" 50 1881 1883 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 46 1688 1714 "isl_BasicSet.ml" 46 1688 1716
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  def bs "isl_BasicSet.ml" 46 1688 1717 "isl_BasicSet.ml" 48 1800 1875
+)
+"isl_BasicSet.ml" 46 1688 1717 "isl_BasicSet.ml" 46 1688 1720
+type(
+  [< Isl_Types.dim_type ] as 'h
+)
+ident(
+  def dt1 "isl_BasicSet.ml" 46 1688 1721 "isl_BasicSet.ml" 48 1800 1875
+)
+"isl_BasicSet.ml" 46 1688 1721 "isl_BasicSet.ml" 46 1688 1724
+type(
+  [< Isl_Types.dim_type ] as 'i
+)
+ident(
+  def dt2 "isl_BasicSet.ml" 46 1688 1725 "isl_BasicSet.ml" 48 1800 1875
+)
+"isl_BasicSet.ml" 46 1688 1725 "isl_BasicSet.ml" 46 1688 1728
+type(
+  [< Isl_Types.dim_type ] as 'j
+)
+ident(
+  def dt3 "isl_BasicSet.ml" 46 1688 1729 "isl_BasicSet.ml" 48 1800 1875
+)
+"isl_BasicSet.ml" 46 1688 1729 "isl_BasicSet.ml" 46 1688 1732
+type(
+  [< Isl_Types.dim_type ] as 'k
+)
+ident(
+  def dt4 "isl_BasicSet.ml" 46 1688 1735 "isl_BasicSet.ml" 48 1800 1875
+)
+"isl_BasicSet.ml" 46 1688 1735 "isl_BasicSet.ml" 46 1688 1749
+type(
+  (IslRaw_Types.matrix -> unit) -> IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref Isl_Utils.wrap
+)
+"isl_BasicSet.ml" 46 1688 1750 "isl_BasicSet.ml" 46 1688 1768
+type(
+  IslRaw_Types.matrix -> unit
+)
+ident(
+  ext_ref IslRaw_Matrix.free
+)
+"isl_BasicSet.ml" 46 1688 1735 "isl_BasicSet.ml" 46 1688 1768
+type(
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 46 1688 1769 "isl_BasicSet.ml" 46 1688 1771
+type(
+  (IslRaw_Types.matrix -> IslRaw_Types.matrix) ->
+  IslRaw_Types.matrix -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"isl_BasicSet.ml" 47 1772 1780 "isl_BasicSet.ml" 47 1772 1783
+type(
+  [< Isl_Types.dim_type ] -> IslRaw_Types.dim_type
+)
+ident(
+  def tdt "isl_BasicSet.ml" 48 1800 1804 "isl_BasicSet.ml" 48 1800 1875
+)
+"isl_BasicSet.ml" 47 1772 1786 "isl_BasicSet.ml" 47 1772 1795
+type(
+  ([< Isl_Types.dim_type ] as 'l) -> IslRaw_Types.dim_type
+)
+ident(
+  ext_ref Isl_Types.to_raw_dt
+)
+"isl_BasicSet.ml" 48 1800 1804 "isl_BasicSet.ml" 48 1800 1832
+type(
+  IslRaw_Types.basic_set ->
+  IslRaw_Types.dim_type ->
+  IslRaw_Types.dim_type ->
+  IslRaw_Types.dim_type -> IslRaw_Types.dim_type -> IslRaw_Types.matrix
+)
+ident(
+  ext_ref IslRaw.BasicSet.inequalities_matrix
+)
+"isl_BasicSet.ml" 48 1800 1833 "isl_BasicSet.ml" 48 1800 1835
+type(
+  IslRaw_Types.basic_set
+)
+ident(
+  int_ref bs "isl_BasicSet.ml" 46 1688 1714 "isl_BasicSet.ml" 46 1688 1716
+)
+"isl_BasicSet.ml" 48 1800 1837 "isl_BasicSet.ml" 48 1800 1840
+type(
+  'h -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 47 1772 1780 "isl_BasicSet.ml" 47 1772 1783
+)
+"isl_BasicSet.ml" 48 1800 1841 "isl_BasicSet.ml" 48 1800 1844
+type(
+  'h
+)
+ident(
+  int_ref dt1 "isl_BasicSet.ml" 46 1688 1717 "isl_BasicSet.ml" 46 1688 1720
+)
+"isl_BasicSet.ml" 48 1800 1836 "isl_BasicSet.ml" 48 1800 1845
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 48 1800 1847 "isl_BasicSet.ml" 48 1800 1850
+type(
+  'i -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 47 1772 1780 "isl_BasicSet.ml" 47 1772 1783
+)
+"isl_BasicSet.ml" 48 1800 1851 "isl_BasicSet.ml" 48 1800 1854
+type(
+  'i
+)
+ident(
+  int_ref dt2 "isl_BasicSet.ml" 46 1688 1721 "isl_BasicSet.ml" 46 1688 1724
+)
+"isl_BasicSet.ml" 48 1800 1846 "isl_BasicSet.ml" 48 1800 1855
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 48 1800 1857 "isl_BasicSet.ml" 48 1800 1860
+type(
+  'j -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 47 1772 1780 "isl_BasicSet.ml" 47 1772 1783
+)
+"isl_BasicSet.ml" 48 1800 1861 "isl_BasicSet.ml" 48 1800 1864
+type(
+  'j
+)
+ident(
+  int_ref dt3 "isl_BasicSet.ml" 46 1688 1725 "isl_BasicSet.ml" 46 1688 1728
+)
+"isl_BasicSet.ml" 48 1800 1856 "isl_BasicSet.ml" 48 1800 1865
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 48 1800 1867 "isl_BasicSet.ml" 48 1800 1870
+type(
+  'k -> IslRaw_Types.dim_type
+)
+ident(
+  int_ref tdt "isl_BasicSet.ml" 47 1772 1780 "isl_BasicSet.ml" 47 1772 1783
+)
+"isl_BasicSet.ml" 48 1800 1871 "isl_BasicSet.ml" 48 1800 1874
+type(
+  'k
+)
+ident(
+  int_ref dt4 "isl_BasicSet.ml" 46 1688 1729 "isl_BasicSet.ml" 46 1688 1732
+)
+"isl_BasicSet.ml" 48 1800 1866 "isl_BasicSet.ml" 48 1800 1875
+call(
+  stack
+)
+type(
+  IslRaw_Types.dim_type
+)
+"isl_BasicSet.ml" 48 1800 1804 "isl_BasicSet.ml" 48 1800 1875
+call(
+  stack
+)
+type(
+  IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 47 1772 1776 "isl_BasicSet.ml" 48 1800 1875
+type(
+  IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 46 1688 1735 "isl_BasicSet.ml" 48 1800 1875
+call(
+  tail
+)
+type(
+  IslRaw_Types.matrix
+)
+"isl_BasicSet.ml" 50 1881 1887 "isl_BasicSet.ml" 50 1881 1896
+type(
+  IslRaw_Types.basic_set -> string
+)
+ident(
+  def to_string "isl_BasicSet.ml" 50 1881 1954 "isl_BasicSet.ml" 51 1955 1958
+)
+"isl_BasicSet.ml" 50 1881 1899 "isl_BasicSet.ml" 50 1881 1919
+type(
+  IslRaw.ctx ->
+  (IslRaw_Types.printer -> IslRaw_Types.basic_set -> IslRaw_Types.printer) ->
+  IslRaw_Types.basic_set -> string
+)
+ident(
+  ext_ref Isl_Utils.print_with
+)
+"isl_BasicSet.ml" 50 1881 1920 "isl_BasicSet.ml" 50 1881 1923
+type(
+  IslRaw.ctx
+)
+ident(
+  ext_ref CTX.ctx
+)
+"isl_BasicSet.ml" 50 1881 1924 "isl_BasicSet.ml" 50 1881 1954
+type(
+  IslRaw_Types.printer -> IslRaw_Types.basic_set -> IslRaw_Types.printer
+)
+ident(
+  ext_ref IslRaw.Printer.print_basic_set
+)
+"isl_BasicSet.ml" 50 1881 1899 "isl_BasicSet.ml" 50 1881 1954
+call(
+  stack
+)
+type(
+  IslRaw_Types.basic_set -> string
+)
