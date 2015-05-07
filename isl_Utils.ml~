@@ -1,2 +1,0 @@
-let wrap free v =
-  Gc.finalise free v; v  
